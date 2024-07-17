@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>회계원리 프로젝트</title>
       <body className={inter.className}>
         <Header />
         {children}

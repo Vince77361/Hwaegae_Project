@@ -1,11 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 
-export const metadata = {
-  title: "Eunttoring",
-  description: "회계원리 프로젝트 입니다",
-};
-
 export default function Home() {
   return (
     <div className={styles.container}>
